@@ -90,6 +90,19 @@ hr {
 	margin-bottom: 30px;
 	border: 0;
 }
+
+/* Prelaoder */
+#preloader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	background: #111 url("../img/loader.svg") no-repeat center center;
+  }
+
 /* Navigation */
 #nav {
 	z-index: 9999;
@@ -191,7 +204,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #eff5ff;
-	background: url(../img/dale.png) no-repeat center;
+	background: url(../img/intro.png) no-repeat center;
 	background-color: #364da0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

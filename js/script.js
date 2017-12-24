@@ -1,5 +1,10 @@
 (function ($) {
 
+    // Preloader
+    $(window).on('load', function() {
+        $('#preloader').delay(100).fadeOut('slow',function(){$(this).remove();});
+    });
+
     // smooth scroll
   	$('a.page-scroll').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
