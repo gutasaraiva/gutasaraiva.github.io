@@ -1,0 +1,30 @@
+/* AUTHORS */
+
+	Project, UI, Web Design, Development: 
+        Myreli Borba
+	    Contact: myreli.github.io
+	    Twitter: @Myreli_Borba
+	    From: The South Coders team, Brazil.
+
+/* THANKS */
+
+	(First) EN Translator:
+        Augusta Saraiva
+	    Twitter: @gutavsaraiva
+
+	PT Translator:
+        Augusta Saraiva
+	    Twitter: @gutavsaraiva
+
+	Tests:
+        Bernardo Silva 
+        Twitter: @_silvabe
+
+        Augusta Saraiva
+		Twitter: @gutavsaraiva
+
+/* SITE */
+	Last update: 2017/12/24
+	Language: English
+	Doctype: HTML5
+	IDE: Sublime Text, VSCode, Photoshop

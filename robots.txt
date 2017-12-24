@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /CNAME
+Disallow: /README.md
+Disallow: /tmp/
+Disallow: /tests/

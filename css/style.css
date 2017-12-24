@@ -1,16 +1,19 @@
 body, html {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #656c6d;
 	width: 100% !important;
 	height: 100% !important;
+	background-color: #eff5ff;
 }
 h1 {
 	font-weight: 700;
+	font-family: 'Loved by the King', cursive;
 }
 h1 strong {
 	font-weight: 900;
+	font-family: 'Loved by the King', cursive;
 }
 h2 {
 	line-height: 20px;
@@ -18,7 +21,8 @@ h2 {
 	color: #222;
 	font-weight: 400;
 	margin-bottom: 30px;
-	font-size: 34px;
+	font-size: 44px;
+	font-family: 'Loved by the King', cursive;
 }
 h3, h4 {
 	color: #222;
@@ -34,18 +38,22 @@ p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Loved by the King', cursive;
 }
 a {
 	color: #333;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #A84141;
+	color: #364da0;
 }
 ul, ol {
 	list-style: none;
 }
+blockquote footer, blockquote small, blockquote .small {
+	color: #eff5ff
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -73,7 +81,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #862222;
+	background: #151E40;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -92,10 +100,12 @@ hr {
 	background-color: #222;
 	border-radius: 0px;
 	padding: 10px 0;
-	font-family: "Oswald", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .navbar-custom .navbar-brand {
 	font-weight: 600;
+	font-size: 150%;
+	font-family: 'Loved by the King', cursive;
 }
 .navbar-custom .navbar-brand:focus {
 	outline: 0;
@@ -103,7 +113,7 @@ hr {
 .navbar-custom .navbar-brand .navbar-toggle {
 	padding: 4px 6px;
 	font-size: 16px;
-	color: #fff;
+	color: #eff5ff;
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
 	outline: 0;
@@ -120,13 +130,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #A84141;
+	color: #364da0;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #A84141;
+	color: #364da0;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -135,36 +145,36 @@ hr {
 	background-color: rgba(255,255,255,.3);
 }
 .navbar-custom .nav li.active a:hover {
-	color: #fff;
+	color: #eff5ff;
 }
 .btn {
 	text-transform: uppercase;
 }
 .btn-default {
-	color: #fff;
+	color: #eff5ff;
 	background-color: transparent;
-	border-color: #fff;
+	border-color: #eff5ff;
 	padding: 10px 20px;
 	margin: 0;
 	font-size: 16px;
 	border-radius: 0;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color: #fff;
+	color: #eff5ff;
 	background-color: #222;
 	border-color: #222;
 }
 .btn-primary {
-	color: #fff;
+	color: #eff5ff;
 	background-color: #222;
 	padding: 10px 20px;
 	border-color: #222;
 	border-radius: 0;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
-	color: #fff;
-	background-color: #A84141;
-	border-color: #A84141;
+	color: #eff5ff;
+	background-color: #364da0;
+	border-color: #364da0;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -176,16 +186,16 @@ hr {
 	height: auto;
 	padding: 100px 0;
 	text-align: center;
-	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
-	background-color: #A84141;
+	color: #eff5ff;
+	background: url(../img/dale.png) no-repeat center;
+	background-color: #364da0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
 .section-title {
-	font-family: "Oswald", sans-serif;
+	font-family: 'Loved by the King', cursive;
 }
 .section-title.center {
 	padding: 25px 0 45px 0;
@@ -209,10 +219,10 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #A84141;
+	background: #364da0;
 }
 #skills h2 {
-	color: #fff;
+	color: #eff5ff;
 }
 #skills hr {
 	background: rgba(255,255,255,0.3);
@@ -224,7 +234,7 @@ hr {
 }
 #skills .skill h4 {
 	font-weight: 600;
-	color: #fff;
+	color: #eff5ff;
 }
 .chart {
 	position: relative;
@@ -254,14 +264,14 @@ hr {
 /* Portfolio Section */
 #portfolio {
 	padding: 80px 0;
-	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+	background: #eff5ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #eff5ff 0%, #f4f5f6 49%, #eff5ff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eff5ff), color-stop(49%, #f4f5f6), color-stop(100%, #eff5ff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #eff5ff 0%, #f4f5f6 49%, #eff5ff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #eff5ff 0%, #f4f5f6 49%, #eff5ff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #eff5ff 0%, #f4f5f6 49%, #eff5ff 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #eff5ff 0%, #f4f5f6 49%, #eff5ff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff5ff', endColorstr='#eff5ff', GradientType=0 ); /* IE6-9 */
 }
 .categories {
 	padding-bottom: 30px;
@@ -275,17 +285,17 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #A84141;
-	color: #fff;
+	background: #364da0;
+	color: #eff5ff;
 	padding: 6px 14px;
 }
 ol.type li a.active {
 	background: #222;
-	color: #fff;
+	color: #eff5ff;
 }
 ol.type li a:hover {
 	background: #222;
-	color: #fff;
+	color: #eff5ff;
 }
 .isotope-item {
 	z-index: 2
@@ -342,7 +352,7 @@ ol.type li a:hover {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
-	color: #ffffff;
+	color: #eff5ff;
 	padding: 33% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -351,7 +361,7 @@ ol.type li a:hover {
 }
 .hover-bg .hover-text>h4 {
 	opacity: 0;
-	color: #fff;
+	color: #eff5ff;
 	font-weight: 400;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
@@ -385,9 +395,9 @@ ol.type li a:hover {
 }
 /* Achivements Section */
 #achievements {
-	color: #fff;
+	color: #eff5ff;
 	padding: 100px 0;
-	background: #A84141;
+	background: #364da0;
 }
 #achievements h2 {
 	
@@ -399,7 +409,7 @@ ol.type li a:hover {
 	font-size: 200%;
 }
 .achievement-box h4 {
-	color: #fff;
+	color: #eff5ff;
 	font-size: 20px;
 	font-weight: 400;
 	margin-left: 5px;
@@ -473,7 +483,7 @@ ol.type li a:hover {
 	border: 1px solid #eee;
 	border-radius: 100%;
 	text-align: center;
-	background: #fff;
+	background: #8694C6;
 }
 .timeline>li .timeline-image h4 {
 	margin-top: 20px;
@@ -510,7 +520,7 @@ ol.type li a:hover {
 }
 .timeline .timeline-heading h4.subheading {
 	text-transform: none;
-	color: #D46A6A;
+	color:  #8694C6;
 	font-size: 20px;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
@@ -519,11 +529,11 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
 	padding: 100px 0 40px 0;
-	color: #fff;
-	background: #A84141;
+	color: #eff5ff;
+	background: #364da0;
 }
 #contact h2 {
-	color: #fff;
+	color: #eff5ff;
 }
 #contact hr {
 	background: rgba(255,255,255,0.3);
@@ -532,7 +542,7 @@ ol.type li a:hover {
 	padding-top: 20px;
 	font-size: 20px;
 	font-weight: 400;
-	color: #fff;
+	color: #eff5ff;
 }
 #contact form {
 	padding: 30px 0;
@@ -542,13 +552,13 @@ ol.type li a:hover {
 	margin-bottom: 10px;
 }
 #contact .text-danger {
-	color: #fff;
+	color: #eff5ff;
 	text-align: left;
 }
 label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Loved by the King', cursive;
 	float: left;
 }
 #contact .form-control {
@@ -596,7 +606,7 @@ color: #2c3e50;
 #contact .social i.fa {
 	font-size: 30px;
 	padding: 4px 5px;
-	color: #fff;
+	color: #eff5ff;
 	transition: all 0.5s;
 }
 #contact .social i.fa:hover {
@@ -604,10 +614,10 @@ color: #2c3e50;
 }
 #contact .btn {
 	background-color: transparent;
-	border: 1px solid #fff;
+	border: 1px solid #eff5ff;
 	border-radius: 0;
 	padding: 10px 20px;
-	color: #fff;
+	color: #eff5ff;
 	margin-top: 15px;
 }
 #contact .btn:hover, #contact .btn:focus {
@@ -637,7 +647,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #a0a5a5;
 }
 #footer a:hover {
-	color: #A84141;
+	color: #364da0;
+}
+
+#footer img {
+	max-height: 50px;
 }
 
 /* Media Queries */
@@ -646,10 +660,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	height: 100%;
 	padding: 0;
 	text-align: left;
-	color: #fff;
+	color: #eff5ff;
 }
-.intro H1 {
-	font-size: 60px;
+.intro h1 {
+	font-size: 80px;
 	font-weight: 500;
 	letter-spacing: -2px;
 }
@@ -661,12 +675,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro-text h1{
 	font-weight: bolder;
-	font-family: "Oswald", sans-serif;
+	font-family: 'Loved by the King', cursive;
 }
 .intro .intro-text p {
-	font-family: 'Lato', sans-serif;
-	font-style: italic;
-	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
 	margin-bottom: 40px;
 	margin-top: 20px;
 }
