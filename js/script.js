@@ -19,10 +19,10 @@
         }
       });
 
-    // stick the navbar at top on scroll
+    // stick the navbar at top on scroll (http://stickyjs.com/)
     $("#nav").sticky({topSpacing:0, zIndex: '99999'});
 
-  	// Portfolio isotope filter
+  	// Portfolio isotope filter (isotope.metafizzy.co)
     $(window).load(function() {
         var $container = $('.portfolio-items');
         $container.isotope({

@@ -494,8 +494,8 @@ ol.type li a:hover {
 	z-index: 100;
 	position: absolute;
 	left: 0;
-	width: 70px;
-	height: 70px;
+	width: 90px;
+	height: 90px;
 	margin-left: 0;
 	border: 1px solid #eee;
 	border-radius: 100%;
